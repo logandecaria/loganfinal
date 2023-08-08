@@ -1,0 +1,58 @@
+.body{
+    background-image: linear-gradient( to left, #536666, #d2d2d2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* fonts */
+#fullname {
+    font-size: larger;
+    padding: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
+}
+
+.smallp {
+    font-size: larger;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
+    float: left;
+    width: 50%;
+    padding: 20px;
+    font-size: larger;
+}
+
+.largep {
+    color: #536666;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
+    float: left;
+    padding-top: 10px;    
+}
+
+.iphonecase{    
+   margin-top: 0px;
+   overflow: auto;
+   margin: 10px;
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 10%;
+   float: right;
+}
+
+
+.maincontent{
+    flex-direction: column;
+}
+
+.footer{
+    margin-top: auto;
+    background-color: #353A3F;
+    padding: 10px;
+    color: white;
+}
+
+.linkStyle{
+    color: #70AFB9;
+    text-decoration: underline;
+}
