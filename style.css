@@ -113,3 +113,22 @@
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.8rem;
 }
+
+.card-title {
+    margin-bottom: 0.75rem;
+    color: #536666;
+font-family: .SF NS Rounded;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.card-text {
+    color: #181009;
+font-family: .SF NS Rounded;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
