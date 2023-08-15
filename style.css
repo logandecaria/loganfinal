@@ -1,5 +1,5 @@
 .body{
-    background-image: linear-gradient( to left, #536666, #d2d2d2);
+    background-image: linear-gradient( to left, #f7eccc, #fffbf1);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 
 .smallp {
     font-size: larger;
-    color: white;
+    color: #181009;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
     float: left;
     width: 50%;
@@ -24,7 +24,7 @@
 }
 
 .largep {
-    color: #536666;
+    color: #181009;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
     float: left;
     padding-top: 10px;    
