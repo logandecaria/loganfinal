@@ -117,18 +117,15 @@
 .card-title {
     margin-bottom: 0.75rem;
     color: #536666;
-font-family: .SF NS Rounded;
-font-size: 26px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 26px;
 }
 
 .card-text {
-color: #181009;
-font-family: .SF NS Rounded;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 16px;
+}
+
+.titles {
+   display: flex;
+    justify-content: center;
+    color: #181009;
 }
