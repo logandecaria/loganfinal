@@ -66,6 +66,7 @@
     flex-direction: column;
     justify-content: end;
     float: right;
+    padding: 2%;
 }
 
 .cardLayout {
@@ -130,4 +131,11 @@
    display: flex;
     justify-content: center;
     color: #181009;
+}
+
+.helloWorld {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #181009;
+    padding-bottom: 2%;
 }
