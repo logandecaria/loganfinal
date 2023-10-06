@@ -67,6 +67,7 @@
     justify-content: end;
     float: right;
     padding: 2%;
+    padding-right: 4%;
 }
 
 .cardLayout {
@@ -140,10 +141,28 @@
     padding-bottom: 2%;
 }
 
-/** @media screen and (min-width: 800) {
-   
+@media screen and (max-width: 1370px) {
+    img[id = "personalPhoto"] {
+        display: none !important;
+    }
+
+        .smallp {
+            font-size: larger;
+            color: #181009;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
+            padding: 2%;
+            font-size: 22px;
+            width: 100%;
+        }
+        
+        .largep {
+            color: #181009;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
+            padding-top: 10px;    
+        }
 }
-**/
+
+
 
 #buttonMain {
     text-align: center;
